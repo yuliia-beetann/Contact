@@ -44,7 +44,7 @@ header p {
 /* contant-block */
 
 .contact-block {
-    padding: 46px 348px 120px 165px;
+    padding: 46px 348px 120px 180px;
     display: flex;
 }
 
@@ -104,6 +104,7 @@ border-left: solid 5px #355b82;
 .contact-info {
     width: 317px;
     height: 160px;
+    /* margin-left: 170px; */
 }
 
 .contact-info a {
@@ -149,6 +150,7 @@ footer {
     font-family: 'Pacifico', cursive;
     font-size: 25px;
     color: #b9b9b9;
+    padding-right: 53px;
 }
 
 /* убрала прокрутку */
