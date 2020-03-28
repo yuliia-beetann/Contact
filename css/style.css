@@ -4,22 +4,18 @@
 
 .contact-form {
     font-family: 'Raleway', sans-serif;
-    /* width: 1500px; */
-    height: 956px;
+    height: 866px;
     width: 100vw;
-    /* height: 100vh; */
     background-image: url(../images/background.png);
-    background-image: no-repeat;
-    background-size: 100%;
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* header */
 
 header {
     width: 100%;
-    position: absolute;
-    top: 101px;
+    padding-top: 101px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,22 +43,27 @@ header p {
 
 /* contant-block */
 
+.contact-block {
+    padding: 46px 348px 120px 165px;
+    display: flex;
+}
+
 /* form */
 
 .form {
-    position: absolute;
-    top: 301px;
-    left: 164px;
     width: 500px;
+    margin-right: 170px;
 }
 
 form {
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 form * {
+    width: 500px;
     margin-bottom: 15px;
     height: 50px;
     opacity: 0.5;
@@ -90,10 +91,10 @@ textarea::placeholder {
 }
 
 textarea {
-    height: 250px;
+    height: 50%;
 }
 
-form>*:active {
+form > *:active {
 opacity: 1;
 border-left: solid 5px #355b82;
 }
@@ -101,9 +102,6 @@ border-left: solid 5px #355b82;
 /* contact-info */
 
 .contact-info {
-    position: absolute;
-    top: 301px;
-    left: 835px;
     width: 317px;
     height: 160px;
 }
@@ -130,8 +128,6 @@ footer {
     height: 90px;
     width: 100%;
     background-color: #262626;
-    position: absolute;
-    bottom: 0px;
     display: flex;
     justify-content: space-between;
     padding: 38px 164px;
